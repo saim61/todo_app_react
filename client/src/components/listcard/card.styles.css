@@ -1,0 +1,50 @@
+.list-card-container {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--secondary);
+  border-radius: 10px;
+  height: fit-content;
+}
+.list-card-button-container {
+  box-sizing: content-box;
+  gap: 20px;
+  padding-right: 10px;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.list-card-title-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+  padding: 10px;
+  gap: 20px;
+}
+
+.list-card-title-container > .title-label {
+  font-weight: bold;
+  font-size: large;
+}
+.list-card-title-select {
+  padding: 5px;
+  border-radius: 20px;
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .list-card-title-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list-card-title-container > .title-label {
+    border: 1px solid var(--primary);
+  }
+}

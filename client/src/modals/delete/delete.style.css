@@ -1,0 +1,10 @@
+.delete-container {
+  padding: 10px;
+  position: absolute;
+  z-index: 120;
+  width: 60%;
+  background-color: var(--secondary);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 20px;
+}

@@ -1,0 +1,21 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  user-select: none;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  background: var(--primary);
+}
+.auth-inner-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+  border: 1px solid var(--secondary);
+  border-radius: 10px;
+}

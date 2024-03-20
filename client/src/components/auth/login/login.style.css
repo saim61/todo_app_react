@@ -1,0 +1,50 @@
+.field-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+}
+
+.field-input {
+  background-color: transparent;
+  width: 200px;
+  border: none;
+  outline: none;
+}
+.field-label {
+  width: 100px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.field-input-error {
+  border-bottom: 2px solid red;
+}
+
+.field-input-no-error {
+  border-bottom: 2px solid var(--secondary);
+}
+.field-button-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 10px;
+  justify-content: center;
+}
+.field-button {
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container-header {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  flex: 1;
+  justify-content: center;
+}
+.header-label {
+  font-size: large;
+  font-weight: bolder;
+}

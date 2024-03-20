@@ -1,0 +1,10 @@
+.app-theme {
+  --primary: #f2f5ff;
+  --secondary: #000310;
+  --hover-modal: #000;
+  background-color: var(--primary);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

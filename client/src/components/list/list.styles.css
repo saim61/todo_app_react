@@ -1,0 +1,9 @@
+.list-main-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 70px);
+  padding: 5px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  gap: 10px;
+}
